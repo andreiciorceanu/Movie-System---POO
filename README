@@ -1,0 +1,8 @@
+	In main am luat o actiune si verific tipul ei(daca este de tipul Command,Query sau Recommandation),dupa care am luat un string message care va afisa in fisierele .out mesajul obtinut in urma aplicarii metodelor din clasele respective.
+	In clasa Command am facut cate o metoda pentru fiecare tip de comanda. In metoda favorite verificam daca user ul este cel care a dat comanda,ii parcurgem istoricul si vedem daca filmul a fost vizionat sau nu, dupa care parcurgem lista de favorite si vedem daca filmul a fost adaugat sau nu.
+	In metoda view facem la fel ca la favorite,parcurgem istoricul user-ului daca un film n a fost vizionat setam numarul de view-uri la 1 daca a mai fost vizionat il incrementam si afisam mesajele respective de eroare sau de success.
+	In metoda rateMovie verificam daca user-ul este cel care a dat comanda,dupa care parcugem map-ul creat care retine numele filmelor si rating-ul daca a fost dat de utilizator dupa care afisam mesajul corespunzator.
+	In metoda rateShow am procedat la fel ca la Movie,parcurgem map-ul care retine numele filmelor si rating-ul dat de user.
+	In clasa Query am creat metoda awards in care verificam daca user-ul este cel care a dat comanda dupa care parcurgem string-ul de awards date ca parametru si verificam daca actorii au primit toate acele awards-uri. Am creat un map pentru afisarea actorilor in ordinea respectiva data ca parametru si afisarea mesajelor corespunzatoare.
+
+github repository liink: https://github.com/andrei-ciorceanu/Tema-POO-2020
